@@ -12,10 +12,6 @@ body {
     width: 50%;
 }
 
-.top-banner .paragraph {
-    margin-top: 100px;
-}
-
 .top-banner img {
     width: 100%;
 }
@@ -27,7 +23,8 @@ body {
 }
 
 #paragraph {
-    margin-top: 100px;
+    padding: 5%;
+    padding-top: 10%;
 }
 
 #paragraph span {
@@ -43,13 +40,13 @@ body {
 }
 
 #person-img {
-    width: 60%;
-    padding-left: 40px;
-    padding-top: 30px;
+    width: 70%;
+    height: 91%;
+    padding: 10%;
 }
 
 #top-sectin-id {
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 77%;
+    background-size: 100% 80%;
 }
