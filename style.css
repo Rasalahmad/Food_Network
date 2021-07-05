@@ -4,12 +4,12 @@ body {
 
 .top-section {
     display: flex;
+    padding-bottom: 100px;
+    margin-top: 50px;
 }
 
 .top-banner {
     width: 50%;
-    margin-top: 50px;
-    margin-left: 50px;
 }
 
 .top-banner .paragraph {
@@ -26,12 +26,12 @@ body {
     line-height: 10px;
 }
 
-.paragraph span {
-    color: orange;
+#paragraph {
+    margin-top: 100px;
 }
 
-.paragraph p {
-    font-size: 15px;
+#paragraph span {
+    color: orange;
 }
 
 .button {
@@ -40,4 +40,16 @@ body {
     color: #fff;
     padding: 10px 20px;
     border-radius: 30px;
+}
+
+#person-img {
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#top-sectin-id {
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 77%;
 }
