@@ -91,7 +91,7 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 15px rgb(15, 212, 41);
 }
 
 .social-media {
@@ -122,6 +122,47 @@ body {
 
 .apps-feature:hover {
     box-shadow: 10px 10px 20px gray;
+}
+
+.review-section {
+    margin-left: 50px;
+    padding: 0%;
+}
+
+.rate-us-div {
+    display: flex;
+}
+
+.review {
+    width: 25%;
+    padding: 20px;
+}
+
+.rate-us-heading {
+    text-align: center;
+}
+
+.rate-us-heading h1 {
+    color: grey;
+}
+
+.review img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.review p {
+    font-size: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.fbicon {
+    color: blue;
+    margin-right: 10px;
 }
 
 .footer {
