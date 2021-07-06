@@ -63,6 +63,11 @@ body {
     margin: 0 auto;
 }
 
+.recipies-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .manu p {
     font-size: 10px;
 }
@@ -91,6 +96,32 @@ body {
 
 .social-media {
     padding: 5%;
+}
+
+.apps-feature-section {
+    padding: 5%;
+    background-image: url(images/Frame\ 59.jpg);
+}
+
+.apps-feature {
+    width: 33.3%;
+    height: 250px;
+    margin: 20px;
+    padding: 1%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.apps-feature p {
+    font-size: 10px;
+}
+
+.apps-feature img {
+    height: 140px;
+}
+
+.apps-feature:hover {
+    box-shadow: 10px 10px 20px gray;
 }
 
 .footer {
