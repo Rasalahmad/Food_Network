@@ -1,8 +1,11 @@
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.top-section {
+.flexible-container {
     display: flex;
     padding-bottom: 100px;
     margin-top: 50px;
@@ -49,4 +52,55 @@ body {
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: 100% 80%;
+}
+
+.common-div {
+    display: flex;
+}
+
+.bottom-head {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.manu p {
+    font-size: 10px;
+}
+
+.manu img {
+    border-radius: 10%;
+}
+
+.manu {
+    width: 33.3%;
+    margin: 20px;
+    padding: 1%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.parents-div {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.social-media {
+    padding: 5%;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+.footer span {
+    color: orange;
 }
